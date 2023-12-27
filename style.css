@@ -11,43 +11,12 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
-}
-
-.header,
-.footer,
-.hero {
-  background-color: #1f2937;
-}
-
-.hero {
-  height: 470px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.title {
-  font-size: 48px;
-  font-weight: 900;
-  color: #f9faf8;
-  max-width: 500px;
+  align-items: center;
 }
 
 .header-logo {
   color: #f9faf8;
   font-size: 24px;
-}
-
-.hero-text,
-a {
-  color: #e5e7eb;
-  font-size: 18px;
-}
-
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 ul {
@@ -60,50 +29,96 @@ a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
+.header,
+.footer,
+.hero {
+  background-color: #1f2937;
+}
+
+.hero {
+  padding: 70px 90px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  max-width: 500px;
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  display: flex;
+  max-width: 450px;
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
 }
 
 .sign-up-button-1 {
   background-color: #3882f6;
   border: none;
-  padding: 8px 35px;
+  padding: 8px 30px;
   font-size: 18px;
   border-radius: 8px;
   color: white;
+  margin-left: 100px;
+}
+
+.hero-text,
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  cursor: pointer;
 }
 
 .random-info {
   justify-content: center;
-  gap: 52px;
 }
 
 .conteiner {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 60px;
   text-align: center;
 }
 
 .info-title {
   color: #1f2937;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 900;
+  margin: 40px;
   display: flex;
   justify-content: center;
+}
+
+.info-image {
+  border: 3px solid #3882f6;
+  border-radius: 18px;
+  background-color: white;
+  width: 160px;
+  height: 160px;
 }
 
 .items {
   max-width: 150px;
 }
 
-.sign-up-button {
-  color: white;
-  background-color: #3882f6;
-  border: 2px solid #f9faf8;
-  padding: 6px 35px;
-  font-size: 15px;
-  border-radius: 8px;
+.info-text {
+  color: #1f2937;
+  margin-bottom: 100px;
 }
 
 .quote-section {
@@ -135,14 +150,38 @@ button {
 .sign-up {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  margin: 50px 50px;
+  margin: 90px 20px;
 }
 
 .container {
   background-color: #3882f6;
   color: white;
-  padding: 50px 40px;
+  border-radius: 10px;
+  padding: 3em;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-up-title {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.sign-up-text {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.sign-up-button {
+  color: white;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  padding: 6px 35px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
 }
 
 .footer {
