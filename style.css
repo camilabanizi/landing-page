@@ -10,7 +10,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -39,6 +39,8 @@ a {
   padding: 70px 90px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 350px;
 }
 
 .title {
@@ -78,7 +80,6 @@ a {
 .content-2 {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   flex-direction: column;
   color: #e5e7eb;
 }
@@ -87,8 +88,6 @@ a {
   background-color: grey;
   padding: 80px 120px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .hero-text,
